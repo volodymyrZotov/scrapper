@@ -85,5 +85,5 @@ for i in range(delta.days + 1):
     year = current_day.strftime('%Y')
     month = current_day.strftime('%m')
     day = current_day.strftime('%d')
-    url = f'http://someurl.com/showinsiders.php?date={year}-{month}-{day}'
+    url = f'http://relationalstocks.com/showinsiders.php?date={year}-{month}-{day}'
     each_day_data(url, current_day)
